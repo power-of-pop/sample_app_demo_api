@@ -1,24 +1,19 @@
-# README
+# APIの学習
+## 使用技術
+- Ruby on rails
+- Google Vision API(画像認識)
+- Google Natural Language API（自然言語認識）
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 実装したこと
+- Google Vision APIを使った画像認識機能
+- Google Natural Language APIを使った自然言語認識機能
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 実行方法
+1. Google Cloud Platformの登録
+2. Vision APIの有効化
+3. Gem(dotenv-rails)の追加
+4. lib/vision.rbの作成
+5. コントローラのcreateアクションを編集
+6. Natural Language APIの有効化
+7. lib/language.rbの作成
+8. コントローラのcreateアクションを編集
